@@ -54,7 +54,7 @@ const Login = () => {
     e.preventDefault();
 
     const email = emailtRef.current.value;
-    console.log(email);
+
     const confirm = window.confirm('Want to reset your password?');
     if (!confirm) {
       return;
