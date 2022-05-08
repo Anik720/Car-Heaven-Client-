@@ -3,7 +3,7 @@ import { Button, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Inventory = ({ inventory }) => {
-  console.log(inventory);
+
   const {
     _id,
     name,
