@@ -1,0 +1,34 @@
+.masud{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 90%
+}
+@media screen and (max-width:600px) {
+  .masud{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: auto;
+    width: 90%
+  }
+  .kalu{
+    margin-right: 70px;
+  }
+  .car-img{
+
+    margin:auto;
+  }
+  /* .masud{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 50%;
+  }
+  .habu{
+    width: 50%;
+  }
+  .car-img{
+    width: 50%;
+  }
+  .car-body{
+    width: 80%;
+  } */
+}

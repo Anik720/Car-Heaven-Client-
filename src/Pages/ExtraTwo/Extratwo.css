@@ -1,0 +1,9 @@
+@media screen  and (max-width: 600px)  {
+  .kibria{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  #golam{
+    width: 100%;
+  }
+}

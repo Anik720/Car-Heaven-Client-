@@ -1,0 +1,22 @@
+.inventory-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  font-family: 'Oswald', sans-serif;
+  grid-gap: 20px;
+  width: 100%;
+}
+.inventory-container .harun{
+  width: 70%
+}
+@media screen and (max-width:600px) {
+  .inventory-container{
+    
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+  
+  }
+  .harun{
+    width: 50%;
+  }
+}
