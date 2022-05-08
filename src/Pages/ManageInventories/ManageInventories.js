@@ -24,7 +24,6 @@ const ManageInventories = () => {
       })
       .then(
         (data) => {
-          console.log(data);
           setInventories(inventories);
         },
         // this is the data we get after doing the delete request, do whatever you want with this data
