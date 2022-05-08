@@ -36,7 +36,7 @@ const GoogleLogin = () => {
       'https://phinventory.herokuapp.com/login',
       { email },
     );
-    console.log(data);
+
     localStorage.setItem('accessToken', data.accessToken);
   };
   return (
