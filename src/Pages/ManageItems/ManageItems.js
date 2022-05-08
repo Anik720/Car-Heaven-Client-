@@ -41,7 +41,6 @@ const ManageItems = () => {
       })
       .then(
         (data) => {
-          console.log(data);
           const data1 = inventories.filter((inventory) => inventory._id !== id);
           setInventories(data1);
         },
