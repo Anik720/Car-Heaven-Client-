@@ -17,6 +17,4 @@ const Extraone = () => {
 };
 
 export default Extraone;
-// export default GoogleApiWrapper({
-//   apiKey: 'AIzaSyCZQdWZWsNykL30EbvVherj04c9HcqFc8',
-// })(Extraone);
+
