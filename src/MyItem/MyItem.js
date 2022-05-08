@@ -53,7 +53,7 @@ const MyItem = () => {
         (data) => {
           console.log(data);
           const data1 = items.filter((item) => item._id !== id);
-          console.log(data1);
+
           setItems(data1);
         },
         // this is the data we get after doing the delete request, do whatever you want with this data
