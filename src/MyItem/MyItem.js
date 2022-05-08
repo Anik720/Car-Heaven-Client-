@@ -16,26 +16,6 @@ const MyItem = () => {
   const [items, setItems] = useState([]);
   console.log(items);
 
-  // try {
-  //   fetch(`http://localhost:5000/myItem?email=${email}`, {
-  //     headers: {
-  //       authorization: `Bearer ${localStorage.getItem('accessToken')}`,
-  //     },
-  //   })
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log('h1', data);
-  //       setItems(data);
-  //     });
-
-  //     const data= a
-  // } catch (error) {
-  //   if (error.response.status === 401 || error.response.status === 403) {
-  //     signOut(auth);
-  //     navigate('/login');
-  //   }
-  // }
-
   useEffect(() => {
     const getOrders = async () => {
       const url = `https://phinventory.herokuapp.com/myItem?email=${email}`;
