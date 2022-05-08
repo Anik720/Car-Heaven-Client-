@@ -35,7 +35,7 @@ const AddItems = () => {
       supplier_name,
       sold,
     };
-    console.log(item);
+
     const confirm = window.confirm(
       'Are you Sure that you want to add this item?',
     );
