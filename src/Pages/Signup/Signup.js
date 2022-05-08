@@ -46,7 +46,6 @@ const Signup = () => {
       { email },
     );
     localStorage.setItem('accessToken', data.accessToken);
-    console.log(user);
   };
   return (
     <div>
